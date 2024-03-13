@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Release",
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**",
+        "C:\\UEProjects\\Library",
+        "C:\\UEProjects\\Library\\opencv\\build\\include",
+        "C:\\UEProjects\\Library\\opencv\\build\\include\\opencv2"
+      ],
+      "defines": [
+        "WIN32",
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ]
+}
